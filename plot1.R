@@ -15,8 +15,8 @@ y <- totpm25$emissions
 png(filename = "plot1.png", width = 500, height = 500)
 plot(x, y,
      type = "l", 
-     main = "Total pm2.5 Emission per Year",
+     main = "Total PM2.5 Emission per Year",
      xlab ="Year",
-     ylab = "pm2.5 in tonnes x 1000")
+     ylab = "PM2.5 in tonnes x 1000")
 
 dev.off()
